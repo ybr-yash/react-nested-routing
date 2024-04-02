@@ -1,13 +1,13 @@
 import React from 'react'
-import { Link, Outlet } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 
 const Products = () => {
   return (
     <div className="products">
       <div className="productsNav">
-        <Link to="/products/search"> Search </Link>
-        <Link to="/products/list"> List </Link>
-        <Link to="/products/add"> Add </Link>
+        <NavLink to="/products/search"> Search </NavLink>
+        <NavLink to="/products/list"> List </NavLink>
+        <NavLink to="/products/add"> Add </NavLink>
       </div>
 
       <Outlet />

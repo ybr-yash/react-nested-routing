@@ -27,6 +27,13 @@ a {
   font-size: 25px;
 }
 
+.productsNav{
+  .active {
+    background-color: aqua;
+    color: rgb(83, 5, 252);
+  }
+}
+
 .search {
   width: 100%;
   position: relative;
